@@ -1,0 +1,239 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,700;0,800;1,200&display=swap";
+// Variables
+@import "md_variables";
+@import "variables";
+
+// scss-docs-start import-stack
+@import "~bootstrap/scss/bootstrap";
+
+@import "header";
+@import "footer";
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#of-page-index {
+  .home-banner {
+    .background-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url("../images/banner.jpg");
+      background-size: cover;
+      height: 629px;
+      background-repeat: no-repeat;
+      background-position: center;
+      .bannerimg {
+        position: relative;
+        width: 744px;
+        height: 418px;
+        padding: 74px;
+        text-align: center;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #fff;
+          opacity: 0.5;
+          border-radius: 0px 100px;
+        }
+        .banner-content {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          z-index: 1;
+          .banner-title {
+            margin-top: 20px;
+            font-weight: bolder;
+            color: #000000;
+          }
+          .btnshop {
+            background-color: #49a010;
+            border: none;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 0;
+            margin-top: 30px;
+            text-shadow: none;
+            max-width: 250px;
+            font-size: 1.5rem;
+            width: 100%;
+            height: 60px;
+
+            &:hover {
+              color: #49a010;
+              background-color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .serviceinfo {
+    margin-top: 140px;
+    .service1 {
+      .fa-shipping-fast {
+        font-size: 3.75rem;
+        color: #49a010;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    h4 {
+      margin-top: 27px;
+      color: #000000;
+      text-align: center;
+    }
+    h5 {
+      margin-top: 16px;
+      color: #b7b7b7;
+      text-align: center;
+    }
+    .service2 {
+      .fa-user-headset {
+        font-size: 3.75rem;
+        color: #49a010;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    h4 {
+      margin-top: 27px;
+      color: #000000;
+      text-align: center;
+    }
+    h5 {
+      margin-top: 16px;
+      color: #b7b7b7;
+      text-align: center;
+    }
+    .service3 {
+      .fa-money-bill-alt {
+        font-size: 3.75rem;
+        color: #49a010;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h4 {
+        margin-top: 27px;
+        color: #000000;
+        text-align: center;
+      }
+      h5 {
+        margin-top: 16px;
+        color: #b7b7b7;
+        text-align: center;
+      }
+    }
+
+    .service4 {
+      .fa-badge-check {
+        font-size: 3.75rem;
+        color: #49a010;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h4 {
+        margin-top: 27px;
+        color: #000000;
+        text-align: center;
+      }
+      h5 {
+        margin-top: 16px;
+        color: #b7b7b7;
+        text-align: center;
+      }
+    }
+  }
+  .food-cat {
+    margin-top: 120px;
+    .background-cat {
+      background-color: #49a0101a;
+      height: 383px;
+      .headtitle {
+        padding-top: 40px;
+        .cat-text {
+          font-weight: bolder;
+          color: #000000;
+          text-align: center;
+        }
+      }
+      .food-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 24px;
+        .food-cat1 {
+          background-image: url("../images/cat1.jpg");
+          height: 178px;
+          width: 178px;
+          border-radius: 50%;
+          border: 1px solid #49a010;
+        }
+        
+        .food-cat2 {
+          background-image: url("../images/cat2.jpg");
+          height: 178px;
+          width: 178px;
+          border-radius: 50%;
+         }
+        .food-cat3 {
+          background-image: url("../images/cat3.jpg");
+          height: 178px;
+          width: 178px;
+          border-radius: 50%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+         }
+        .food-cat4 {
+          background-image: url("../images/cat4.jpg");
+          height: 178px;
+          width: 178px;
+          border-radius: 50%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .food-cat5 {
+          background-image: url("../images/cat5.jpg");
+          height: 178px;
+          width: 178px;
+          border-radius: 50%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .food-cat6 {
+          background-image: url("../images/cat6.jpg");
+          height: 178px;
+          width: 178px;
+          border-radius: 50%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        h4{
+          margin-top: 20px;
+          font-weight: bolder;
+          color: #49a010;
+          text-align: center;
+         } 
+      }
+    }
+  }
+}
