@@ -28,7 +28,6 @@
   <body>
     <% include /src/include/header.ejs %>
     <main id="of-page-index">
-
       <section class="home-banner">
         <div class="background-banner">
           <div class="bannerimg">
@@ -84,11 +83,10 @@
       <section class="food-cat">
         <div class="background-cat">
           <div class="container">
-           
             <div class="headtitle">
               <h2 class="display-6 cat-text">Top Categories</h2>
             </div>
-           
+
             <div class="food-info">
               <div class="col-sm-6 col-md-2">
                 <div class="food-cat1"></div>
@@ -121,65 +119,274 @@
 
       <section class="offer-product">
         <div class="container">
-            <div class="product-box">
-                    <div class="row">
-                    <div class="col-md-4">
-                      <div class="prodleft-box">
-                        <div class="prodimage"></div>
-                      </div>
+          <div class="product-box">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="prodleft-box">
+                  <div class="prodimage"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="prodinfo">
+                  <h3>Organic Tomato</h3>
+                  <div class="price">
+                    <span class="text-primary">$25.00</span>
+                    <span class="strike">$25.00</span>
+                  </div>
+                  <div class="prod-stat">
+                    <div class="prod-text">
+                      <span>Available: 237</span>
+                      <span style="float: right">Already Sold: 23</span>
                     </div>
-                    <div class="col-md-6">
-                      <div class="prodinfo">
-                        <h3>Organic Tomato</h3>
-                        <div class="price">
-                          <span class="text-primary">$25.00</span>
-                          <span class="strike">$25.00</span>
-                        </div>
-                        <div class="prod-stat">
-                          <div class="prod-text">
-                            <span>Available: 237</span>
-                            <span style="float: right">Already Sold: 23</span>
-                          </div>
-                          <div class="progress">
-                            <div
-                              class="progress-bar text-primary"
-                              role="progressbar"
-                              style="width: 25%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div>
-                          </div>
-                        </div>
-                        <div class="time-box">
-                          <div class="box-text">20 DAYS</div>
-                          <div class="box-text">22 HR</div>
-                          <div class="box-text">10 MIN</div>
-                          <div class="box-text">56 SEC</div>
-                        </div>
-                      </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar text-primary"
+                        role="progressbar"
+                        style="width: 25%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
                     </div>
-                    <div class="col-md-2">
-                      <div class="prodright-box">
-                        <div class="prodright-img"></div>
-                        <div class="prod-bottom">
-                          <div class="bottom-img"></div>
-                        </div>
-                      </div>
-                    </div>
-                 </div>
+                  </div>
+                  <div class="time-box">
+                    <div class="box-text">20 DAYS</div>
+                    <div class="box-text">22 HR</div>
+                    <div class="box-text">10 MIN</div>
+                    <div class="box-text">56 SEC</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="prodright-box">
+                  <div class="prodright-img"></div>
+                  <div class="prod-bottom">
+                    <div class="bottom-img"></div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
       </section>
-      
-      <!-- <section class="top-prod">
+
+      <section class="top-prod">
         <div class="container">
-           <div class="top-heading"><h2 class="display-6">Trendy Food</h2></div>
-           <div class="prod-cat">
-               
-           </div>
+          <div class="top-heading"><h2 class="display-6">Trendy Food</h2></div>
+
+          <div class="prod-cat">
+            <div class="category">
+              <a href="#"><h4 class="text-primary">All</h4></a>
+              <a href="#"><h4>Featured</h4></a>
+              <a href="#"><h4>New</h4></a>
+              <a href="#"><h4>Onsale</h4></a>
+              <a href="#"><h4>Deal</h4></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="catbox-1"></div>
+              <div class="prod-name"><h4>Lemon</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="catbox-2"></div>
+              <div class="prod-name"><h4>Cauliflower</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="catbox-3"></div>
+              <div class="prod-name"><h4>Lettuce</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="catbox-4"></div>
+              <div class="prod-name"><h4>Donec</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="catbox-5"></div>
+              <div class="prod-name"><h4>Lemon</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="catbox-6"></div>
+              <div class="prod-name"><h4>Tomato</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="catbox-7"></div>
+              <div class="prod-name"><h4>Brinjal</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="catbox-8"></div>
+              <div class="prod-name"><h4>Lettuce</h4></div>
+              <div class="prod-price">
+                <span class="discount text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+              </div>
+            </div>
+          </div>
         </div>
-      </section> -->
+      </section>
+
+      <section class="salebanner">
+        <div class="salebanner-bg">
+          <div class="container">
+            <div class="banner-text">
+              <h4 class="text-primary">BLACK FRIDAYS !</h4>
+              <h2 class="display-6">
+                SALE 50% OFF<br />ALL VEGETABLE PRODUCTS
+              </h2>
+              <button class="banner-btnshop text-uppercase">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="best-seller">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-4">
+              <div class="top-rated">
+                <h4>Top Rated</h4>
+              </div>
+
+              <div class="top-rate1">
+                 <div class="image1"></div>
+                 <div class="top-info1">
+                   <h5>Lemon</h5>
+                   <span class="text-primary">$25.00</span>
+                </div>
+              </div>
+
+              <div class="top-rate2">
+                <div class="image2"></div>
+                <div class="top-info2">
+                  <h5>Cauliflower</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="offerprice">$25.00</span>
+               </div>
+             </div>
+
+             <div class="top-rate3">
+              <div class="image3"></div>
+              <div class="top-info3">
+                <h5>Lettuce</h5>
+                <span class="text-primary">$25.00</span>
+                <span class="offer">$25.00</span>
+             </div>
+           </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="best-sell">
+                <h4>Best Selling</h4>
+              </div>
+
+              <div class="best-sell1">
+                <div class="image4"></div>
+                <div class="top-info4">
+                  <h5>Lemon</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="best-offer1">$25.00</span>
+                </div> 
+              </div>
+
+              <div class="best-sell2">
+                <div class="image5"></div>
+                <div class="top-info5">
+                  <h5>Tomato</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="best-offer2">$25.00</span>
+                </div> 
+              </div>
+
+              <div class="best-sell3">
+                <div class="image6"></div>
+                <div class="top-info6">
+                  <h5>Brinjal</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="best-offer3">$25.00</span>
+                </div> 
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="On-sale">
+                <h4>On Sale</h4>
+              </div>
+              
+              <div class="On-Sale1">
+                <div class="image7"></div>
+                <div class="top-info7">
+                  <h5>Donec</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="Onsale-offer1">$25.00</span>
+               </div>
+              </div>
+
+              <div class="On-Sale2">
+                <div class="image8"></div>
+                <div class="top-info8">
+                  <h5>Lettuce</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="Onsale-offer2">$25.00</span>
+               </div>
+              </div>
+
+              <div class="On-Sale3">
+                <div class="image9"></div>
+                <div class="top-info9">
+                  <h5>Tomato</h5>
+                  <span class="text-primary">$25.00</span>
+                  <span class="Onsale-offer2">$25.00</span>
+               </div>
+              </div>
+
+           </div>  
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+         
+      </section>
 
     </main>
 
