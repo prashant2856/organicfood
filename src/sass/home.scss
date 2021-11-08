@@ -831,5 +831,148 @@ body {
   }
 /*Best Seller and top-rate product section end here*/
 
-
+/*Blog Section Start*/
+.blog-section{
+ margin-top: 136px; 
+ h2{
+   color: #000000;
+   text-align: center;
+   font-weight: 700;
+   }
+ .blog-box{
+   margin-top: 24px;
+ .blogimg{
+   max-width: 566px;
+   width: 100%;
+   height: 288px;
+   background-image: url("../images/blog-img.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 0 0 0 60px;
+   }
+  .blog-text{
+    margin-top: 16px;
+    font-weight: 500;
+  p{
+    color:#A1A1A1;
+    font-size: 14px;
+    line-height: 24px;
+  }  
+  } 
+  .blog-detail{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  .blogimg1{
+    max-width: 214px;
+    width: 100%;
+    height: 214px;
+    background-image: url("../images/blogimg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bloginfo{
+    padding-left: 1rem;
+    p{
+      font-size: 16px;
+      color: #A1A1A1;
+      line-height: 28px;
+    }
+    .more{
+      margin-top: 14px;
+      text-align: left;
+    }
+   }
+  } 
+  .blog-detail2{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  .blogimg2{
+    max-width: 214px;
+    width: 100%;
+    height: 214px;
+    background-image: url("../images/blogimg3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bloginfo2{
+    padding-left: 1rem;
+    p{
+      font-size: 16px;
+      color: #A1A1A1;
+      line-height: 28px;
+    }
+    .more{
+      margin-top: 14px;
+      text-align: left;
+    }
+   }
+  }   
+ }  
+}
+/*Blog Section End*/
+/*Brand Section Start*/
+.brand-section{
+ margin-top: 119px; 
+.brand-box{
+ width: 100%;
+ height: 144px;
+ border-radius: 0 30px 0 30px;
+ border: 1px solid #49a010;
+ background-color: #fff;
+.brand-image{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .logo1{
+    max-width: 180px;
+    width: 100%;
+    height: 74px;
+    background-image: url("../images/brand1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .logo2{
+    max-width: 180px;
+    width: 100%;
+    height: 74px;
+    background-image: url("../images/brand2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .logo3{
+    max-width: 180px;
+    width: 100%;
+    height: 74px;
+    background-image: url("../images/brand3.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .logo4{
+    max-width: 180px;
+    width: 100%;
+    height: 74px;
+    background-image: url("../images/brand4.jpg");
+    background-size: cover;
+    background-position: center; 
+  }
+  .logo5{
+    max-width: 180px;
+    width: 100%;
+    height: 74px;
+    background-image: url("../images/brand5.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+} 
+}
+}
+/*Brand Section End*/
 }
