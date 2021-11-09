@@ -72,8 +72,7 @@ header.of-header {
     }
   }
   .top-navigation {
-    
-    border: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
     .box-left{
      padding-right: 2.5rem; 
     .box-category{
@@ -88,10 +87,15 @@ header.of-header {
     }
   }
     .navbar-nav {
-      .text-primary {
-        padding-right: 2.5rem;
-        font-size: 1.5rem;
-      }
+     .menu-link{
+       font-size: 24px;
+       padding:14px 24px;
+       color:$primary;
+       line-height: 32px;
+       &.active{
+         color:#ABD904;
+       }
+     }
     }
   }
 }
