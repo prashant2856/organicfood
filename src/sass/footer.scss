@@ -24,24 +24,18 @@ footer.of-footer {
 
     .social-icon {
       padding-top: 17px;
-      .fa-facebook-f {
-        width: 13px;
-        height: 26px;
-        color: #49a010;
-      }
     }
 
     .quick {
       margin-top: 183px;
       ul {
         li {
-          text-decoration: none !important;
           list-style: none;
-
           a {
             color: #000000;
             font-size: 16px;
-            line-height: 22px;
+            line-height: 34px;
+            text-decoration: none;
           }
         }
       }
@@ -51,13 +45,13 @@ footer.of-footer {
       margin-top: 183px;
       ul {
         li {
-          text-decoration: none;
           list-style: none;
 
           a {
             color: #000000;
             font-size: 16px;
-            line-height: 22px;
+            line-height: 34px;
+            text-decoration: none;
           }
         }
       }

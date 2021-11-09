@@ -17,11 +17,14 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"/>
 
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>   -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link rel="stylesheet" href="css/home.css" />
+
   </head>
 
   <body>
@@ -85,7 +88,6 @@
             <div class="headtitle">
               <h2 class="display-6 cat-text">Top Categories</h2>
             </div>
-
             <div class="food-info">
               <div class="col-sm-6 col-md-2">
                 <div class="food-cat1"></div>
@@ -118,8 +120,7 @@
 
       <section class="offer-product">
         <div class="container">
-          <div class="product-box">
-            <div class="row">
+            <div class="row product-box">
               <div class="col-md-4">
                 <div class="prodleft-box">
                   <div class="prodimage"></div>
@@ -144,8 +145,8 @@
                         style="width: 25%"
                         aria-valuenow="25"
                         aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
+                        aria-valuemax="100">
+                      </div>
                     </div>
                   </div>
                   <div class="time-box">
@@ -165,7 +166,6 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </section>
 
@@ -374,7 +374,7 @@
                 <div class="top-info9">
                   <h5>Tomato</h5>
                   <span class="text-primary">$25.00</span>
-                  <span class="Onsale-offer2">$25.00</span>
+                  <span class="Onsale-offer3">$25.00</span>
                </div>
               </div>
 
@@ -440,7 +440,6 @@
       </section>
 
     </main>
-
     <% include /src/include/footer.ejs %>
     <script src="js/home.js"></script>
   </body>
