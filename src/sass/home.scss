@@ -15,10 +15,6 @@ body {
 }
 
 #of-page-index {
-  .container{
-    max-width: 1146px;
-    width: 100%;
-  }
   /*home banner start*/
   .home-banner {
     .background-banner {
@@ -88,11 +84,8 @@ body {
 
   /*Service Section Start*/
   .serviceinfo {
-    margin-top: 50px;
-    @include media-breakpoint-up(sm) {
-      margin-top: 140px;
-    }
-    .service1 {
+    margin-top: 140px;
+      .service1 {
       .fa-shipping-fast {
         font-size: 3.75rem;
         color: #49a010;
@@ -376,18 +369,7 @@ body {
       font-weight: bolder;
       text-align: center;
     }
-    .prod-cat {
-      margin-top: 16px;
-      .category {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        h4 {
-          color: #a1a1a1;
-          text-decoration: none !important;
-        }
-      }
-    }
+    
     .catbox-1 {
       margin-top: 24px;
       max-width: 275px;

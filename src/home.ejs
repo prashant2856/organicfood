@@ -123,7 +123,9 @@
             <div class="row product-box">
               <div class="col-md-4">
                 <div class="prodleft-box">
-                  <div class="prodimage"></div>
+                  <div class="prodimage">
+                    <span class="badge bg-primary rounded-0">20% OFF</span>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
@@ -173,92 +175,261 @@
         <div class="container">
           <div class="top-heading"><h2 class="display-6">Trendy Food</h2></div>
 
-          <div class="prod-cat">
-            <div class="category">
-              <a href="#"><h4 class="text-primary">All</h4></a>
-              <a href="#"><h4>Featured</h4></a>
-              <a href="#"><h4>New</h4></a>
-              <a href="#"><h4>Onsale</h4></a>
-              <a href="#"><h4>Deal</h4></a>
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="featured-tab" data-bs-toggle="tab" data-bs-target="#featured" type="button" role="tab" aria-controls="featured" aria-selected="false">Featured</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="new" aria-selected="false">New</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="onsale-tab" data-bs-toggle="tab" data-bs-target="#onsale" type="button" role="tab" aria-controls="onsale" aria-selected="false">Onsale</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="deal-tab" data-bs-toggle="tab" data-bs-target="#deal" type="button" role="tab" aria-controls="deal" aria-selected="false">Deal</button>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="catbox-1"><span class="badge bg-primary rounded-0">NEW</span></div>
+                  <div class="prod-name"><h4>Lemon</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-2"><span class="badge bg-primary rounded-0">NEW</span></div>
+                  <div class="prod-name"><h4>Cauliflower</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-3"><span class="badge bg-primary rounded-0">NEW</span></div>
+                  <div class="prod-name"><h4>Lettuce</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-4"><span class="badge bg-primary rounded-0">NEW</span></div>
+                  <div class="prod-name"><h4>Donec</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="catbox-5"></div>
+                  <div class="prod-name"><h4>Lemon</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-6"><span class="badge bg-primary rounded-0">NEW</span></div>
+                  <div class="prod-name"><h4>Tomato</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-7"></div>
+                  <div class="prod-name"><h4>Brinjal</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-8"></div>
+                  <div class="prod-name"><h4>Lettuce</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="featured" role="tabpanel" aria-labelledby="featured-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="catbox-1"></div>
+                  <div class="prod-name"><h4>Lemon</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-2"></div>
+                  <div class="prod-name"><h4>Cauliflower</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-3"></div>
+                  <div class="prod-name"><h4>Lettuce</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-4"></div>
+                  <div class="prod-name"><h4>Donec</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="new" role="tabpanel" aria-labelledby="new-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="catbox-5"></div>
+                  <div class="prod-name"><h4>Lemon</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-6"></div>
+                  <div class="prod-name"><h4>Tomato</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-7"></div>
+                  <div class="prod-name"><h4>Brinjal</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-8"></div>
+                  <div class="prod-name"><h4>Lettuce</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="tab-pane fade" id="onsale" role="tabpanel" aria-labelledby="onsale-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="catbox-1"></div>
+                  <div class="prod-name"><h4>Lemon</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-2"></div>
+                  <div class="prod-name"><h4>Cauliflower</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-3"></div>
+                  <div class="prod-name"><h4>Lettuce</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-4"></div>
+                  <div class="prod-name"><h4>Donec</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="deal" role="tabpanel" aria-labelledby="deal-tab">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="catbox-5"></div>
+                  <div class="prod-name"><h4>Lemon</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-6"></div>
+                  <div class="prod-name"><h4>Tomato</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-7"></div>
+                  <div class="prod-name"><h4>Brinjal</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <div class="catbox-8"></div>
+                  <div class="prod-name"><h4>Lettuce</h4></div>
+                  <div class="prod-price">
+                    <span class="discount text-primary">$25.00</span>
+                    <span class="offer">$25.00</span>
+                  </div>
+                </div>
+            </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-3">
-              <div class="catbox-1"></div>
-              <div class="prod-name"><h4>Lemon</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="catbox-2"></div>
-              <div class="prod-name"><h4>Cauliflower</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="catbox-3"></div>
-              <div class="prod-name"><h4>Lettuce</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="catbox-4"></div>
-              <div class="prod-name"><h4>Donec</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-3">
-              <div class="catbox-5"></div>
-              <div class="prod-name"><h4>Lemon</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="catbox-6"></div>
-              <div class="prod-name"><h4>Tomato</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="catbox-7"></div>
-              <div class="prod-name"><h4>Brinjal</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="catbox-8"></div>
-              <div class="prod-name"><h4>Lettuce</h4></div>
-              <div class="prod-price">
-                <span class="discount text-primary">$25.00</span>
-                <span class="offer">$25.00</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
       <section class="salebanner">
