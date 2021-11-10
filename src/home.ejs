@@ -17,8 +17,6 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"/>
 
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,6 +28,7 @@
   <body>
     <% include /src/include/header.ejs %>
     <main id="of-page-index">
+
       <section class="home-banner">
         <div class="background-banner">
           <div class="bannerimg">
@@ -173,9 +172,8 @@
 
       <section class="top-prod">
         <div class="container">
-          <div class="top-heading"><h2 class="display-6">Trendy Food</h2></div>
-
-          <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+          <div class="food-heading"><h2>Trendy Food</h2></div>
+          <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
             </li>
@@ -191,7 +189,7 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="deal-tab" data-bs-toggle="tab" data-bs-target="#deal" type="button" role="tab" aria-controls="deal" aria-selected="false">Deal</button>
             </li>
-          </ul>
+          </ul> 
 
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
@@ -349,7 +347,6 @@
                 </div>
             </div>
             </div>
-
             <div class="tab-pane fade" id="onsale" role="tabpanel" aria-labelledby="onsale-tab">
               <div class="row">
                 <div class="col-md-3">
@@ -564,14 +561,18 @@
          <div class="container">
            <div class="row">
              <div class="col-md-6">
-                <div class="blogimg"></div>
-                <div class="blog-text">
-                  <h4 class="text-primary">Lorem Ipsum is simply dummy text?</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum is simply dummy text of the printing.</p>
-                </div>
+                  <div class="card card-style">
+                    <img src="images/blog-img-1.jpg" class="card-img-top img-fluid blog-img-radius" alt="blog-image1">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Lorem Ipsum is simply dummy text?</h5>
+                      <p class="card-text blog-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing.</p>
+                    </div>
+                  </div>
+                
              </div>
 
              <div class="col-md-6">
+
                <div class="blog-detail">
                  <div class="blogimg1"></div>
                  <div class="bloginfo">
@@ -580,6 +581,9 @@
                    <span class="more text-primary"><a href="#" style="text-decoration: none;">Read More</a></span>
                  </div>
                </div>
+
+               
+
                <div class="blog-detail2">
                 <div class="blogimg2"></div>
                 <div class="bloginfo2">
