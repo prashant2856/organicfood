@@ -7,14 +7,28 @@ header.of-header {
         margin-right: 0.9rem;
       }
       h4 {
-        color: #bfbfbf;
-      }
-    }
+          font-size: 18px;
+          color: #bfbfbf;
+          @include media-breakpoint-up(sm){
+            color: #bfbfbf;
+          }
+         }
+     }
     .head-cur {
+      display: flex;
+      justify-content: flex-start;
+      @include media-breakpoint-up(sm){
       margin-top: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      }
       .curdrop {
         color: #bfbfbf;
+        font-size: 18px;
+      @include media-breakpoint-up(sm){
         font-size: 1.5rem;
+      }  
       }
       .fa-sort-down::before{
         margin-left: 0.5rem;
@@ -26,21 +40,30 @@ header.of-header {
       margin-left: 3.5rem;
       .landrop {
         color: #bfbfbf;
-        font-size: 1.5rem;
+        font-size: 18px;
+        @include media-breakpoint-up(sm){
+          font-size: 1.5rem;
+        }
       }
     }
   }
   .top-middle {
-    padding: 40px 0;
+      padding: 10px 0;
+    @include media-breakpoint-up(sm){
+      padding: 40px 0;
+    }
     .logo {
-      .logo-text {
-        font-weight: bolder;
-        a {
-          text-decoration: none;
-        }
-      }
+     @include media-breakpoint-only(xs){
+      img{
+        max-width: 120px;
+        width: 100%;
+       }
+      } 
     }
     .searchbox {
+       @include media-breakpoint-only(xs){
+        max-width: 300px;
+       }
       .icon-search {
         display: flex;
         align-items: center;
@@ -56,42 +79,77 @@ header.of-header {
       }
     }
     .icon {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 20px;
+      @include media-breakpoint-up(sm)
+      {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      } 
       .link{
         text-decoration: none;
         position: relative;
-      }
+        }
       .fa-heart {
-        font-size: 32px;
         color: #a1a1a1;
+        font-size: 25px;  
+        @include media-breakpoint-up(sm){
+          font-size: 32px;
+        }
       }
       .fa-shopping-cart {
-        font-size: 32px;
         color: #a1a1a1;
-        padding-left: 2.5rem;
+        font-size: 25px;
+        padding-left: 1.5rem;
+        @include media-breakpoint-up(sm){
+          font-size: 32px;
+        }
       }
     }
   }
   .top-navigation {
     border-top: 1px solid #bfbfbf;
     .box-left{
+     @include media-breakpoint-only(xs){
+       padding-top: 10px;
+     } 
      padding-right: 2.5rem; 
     .box-category{
+      width: 200px;
+      height: 50px;
+      background-color: #49a010;
+      @include media-breakpoint-up(sm){
       width: 271px;
       height: 60px;
       background-color: #49a010;
+      }
       h4{
+        font-size: 17px;
+        color: #ffffff;
+        padding: 14px 0 14px 39px;
+        @include media-breakpoint-up(sm){
         font-size: 24px;
         color: #ffffff;
         padding: 14px 0 14px 39px;
+        }
       }
     }
   }
     .navbar-nav {
      .menu-link{
-       font-size: 24px;
-       padding:14px 24px;
-       color:$primary;
-       line-height: 32px;
+      font-size: 16px;
+      padding:14px 24px;
+      color:$primary;
+      line-height: 20px;
+       @include media-breakpoint-up(sm){
+        font-size: 24px;
+        padding:14px 24px;
+        color:$primary;
+        line-height: 32px;
+       }
        &.active{
          color:#ABD904;
        }
